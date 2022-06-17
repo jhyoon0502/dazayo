@@ -681,13 +681,25 @@ main {
 }
 
 .history-title-txt {
-  text-align: center;
+  text-align: left;
+}
+
+@media screen and (min-width: 1280px) {
+  .history-title-txt {
+    text-align: center;
+  }
 }
 
 .history-content-ul {
   position: relative;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 40px 0 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .history-content-ul {
+    padding: 40px 0 120px 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -870,13 +882,13 @@ main {
 
 .contact-txt-wrap {
   text-align: center;
-  padding: 60px 16px;
+  padding: 56px 58px 80px 58px;
 }
 
 @media screen and (min-width: 768px) {
   .contact-txt-wrap {
     text-align: left;
-    padding: 60px 32px;
+    padding: 62px 16px 120px 16px;
   }
 }
 
@@ -913,14 +925,14 @@ main {
 /* banner */
 .banner-wrap-inner {
   background-color: #00b0ac;
-  padding: 122px 16px;
+  padding: 103px 16px;
   color: #ffffff;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .banner-wrap-inner {
-    padding: 122px 0px;
+    padding: 125px 0px;
   }
 }
 

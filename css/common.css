@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: calc(100% - 64px);
+    width: calc(100% - 116px);
   }
 }
 
@@ -38,10 +38,16 @@
 }
 
 .article-title-margin {
-  margin-bottom: 80px;
+  margin-bottom: 56px;
 }
 
 @media screen and (min-width: 768px) {
+  .article-title-margin {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .article-title-margin {
     margin-bottom: 100px;
   }
