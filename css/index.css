@@ -35,10 +35,17 @@
 }
 
 .logo-wrap {
-  width: 129px;
-  height: 34px;
+  width: 99px;
+  height: 26px;
   background: url(../images/header/logo-white.svg) no-repeat center / cover;
   flex: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo-wrap {
+    width: 129px;
+    height: 34px;
+  }
 }
 
 nav {
@@ -77,6 +84,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 0 16px;
+  visibility: hidden;
 }
 
 .app-download-btn {
@@ -85,12 +93,12 @@ nav {
   height: 16px;
   flex: none;
   background: url(../images/header/download-white.svg) no-repeat center / cover;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .header-app-download:hover .app-download-btn {
   transform: translateY(3px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .header-change {
@@ -115,6 +123,10 @@ nav {
 
 #header.header-change .header-app-download > div:nth-child(2) {
   background: url(../images/header/download-black.svg) no-repeat center / cover;
+}
+
+#header.header-change .header-app-download {
+  visibility: visible;
 }
 
 /* main */
@@ -147,7 +159,7 @@ main {
 
 @media screen and (min-width: 1280px) {
   .intro-txt-wrap {
-    left: 84px;
+    left: 100px;
     bottom: 260px;
   }
 }
@@ -182,10 +194,6 @@ main {
   gap: 0 24px;
 }
 
-.intro-txt-wrap > ul > li > a {
-  display: block;
-}
-
 .li-desktop {
   display: none;
 }
@@ -211,24 +219,19 @@ main {
 .li-desktop > a {
   width: 168px;
   height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
 }
 
-.li-desktop > .download-ios {
-  background: url(../images/intro/download-ios.svg) no-repeat center / cover;
+.li-desktop > a > img {
+  width: 114px;
 }
 
-.li-desktop > .download-ios:hover {
-  background: url(../images/intro/download-ios-active.svg) no-repeat center /
-    cover;
-}
-
-.li-desktop > .download-android {
-  background: url(../images/intro/download-android.svg) no-repeat center / cover;
-}
-
-.li-desktop > .download-android:hover {
-  background: url(../images/intro/download-android-active.svg) no-repeat center /
-    cover;
+.li-desktop > a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .intro-video-wrap {

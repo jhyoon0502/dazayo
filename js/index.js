@@ -31,8 +31,8 @@ window.addEventListener("scroll", function () {
   }
 
   function pauseVideo() {
-    var div = document.getElementById("ytplayer");
-    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    const div = document.getElementById("ytplayer");
+    const iframe = div.getElementsByTagName("iframe")[0].contentWindow;
     iframe.postMessage(
       '{"event":"command","func":"pauseVideo","args":""}',
       "*"
