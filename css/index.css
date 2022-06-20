@@ -565,8 +565,13 @@ main {
 .process-ul > li > .sub-txt {
   font-size: 20px;
   font-weight: 500;
-  height: 60px;
   margin: 10px 0 24px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .process-ul > li > .sub-txt {
+    height: 60px;
+  }
 }
 
 .process-ul > li > .txt-content {
