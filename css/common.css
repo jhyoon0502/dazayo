@@ -57,18 +57,21 @@
   text-align: center;
   font-size: 32px;
   font-weight: 500;
+  line-height: 50px;
 }
 
 @media screen and (min-width: 768px) {
   .article-title-txt {
     text-align: left;
     font-size: 36px;
+    line-height: 55px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .article-title-txt {
     font-size: 40px;
+    line-height: 60px;
   }
 }
 

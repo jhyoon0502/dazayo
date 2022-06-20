@@ -209,6 +209,7 @@ main {
 }
 
 .li-mobile > a {
+  display: block;
   font-weight: 500;
   color: #ffffff;
   padding: 15px 45px;
@@ -436,16 +437,19 @@ main {
 }
 
 .project-wrap-mobile-inner > .article-sub-txt {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   text-align: center;
   margin-bottom: 56px;
+  line-height: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .project-wrap-mobile-inner > .article-sub-txt {
+    font-size: 18px;
     text-align: left;
     margin-bottom: 80px;
+    line-height: 28px;
   }
 }
 
@@ -507,6 +511,7 @@ main {
 .project-mobile-li > .txt-wrap > p:nth-of-type(3) {
   font-size: 14px;
   font-weight: 300;
+  line-height: 24px;
 }
 
 /* process */
@@ -518,12 +523,14 @@ main {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 56px 0;
+  padding: 0 38px;
 }
 
 @media screen and (min-width: 768px) {
   .process-ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 56px 72px;
+    padding: 0;
   }
 }
 
@@ -576,6 +583,7 @@ main {
 
 .process-ul > li > .txt-content {
   font-weight: 300;
+  line-height: 28px;
 }
 
 /* introduce */
@@ -864,6 +872,7 @@ main {
   font-size: 15px;
   color: #707070;
   margin-bottom: 16px;
+  line-height: 27px;
 }
 
 .history-content-li > .txt-wrap > ul > li:last-child {
@@ -913,7 +922,7 @@ main {
 @media screen and (min-width: 768px) {
   .contact-txt-wrap {
     text-align: left;
-    padding: 62px 16px 120px 16px;
+    padding: 62px 16px 120px 58px;
   }
 }
 
