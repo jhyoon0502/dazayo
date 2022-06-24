@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   if (screen.width < 1280) {
-    var target = $(".introduce-li");
+    const target = $(".introduce-li");
 
     target.on("click", function () {
       target.toggleClass("clicked");
@@ -72,7 +72,7 @@ window.addEventListener("resize", function () {
   }
 
   if (screen.width < 1280) {
-    var target = $(".introduce-li");
+    const target = $(".introduce-li");
 
     target.on("click", function () {
       target.toggleClass("clicked");
