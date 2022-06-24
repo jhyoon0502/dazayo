@@ -62,3 +62,7 @@ window.addEventListener("resize", function () {
     );
   }
 });
+
+const userAgent = navigator.userAgent.toLocaleLowerCase();
+
+console.log("userAgent", userAgent);
