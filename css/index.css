@@ -114,7 +114,7 @@ nav {
 }
 
 #header.header-change .logo-wrap {
-  background: url(../images/header/logo-green.svg) no-repeat center / cover;
+  background: url(../images/header/logo-changed.svg) no-repeat center / cover;
 }
 
 #header.header-change nav > a::after {
