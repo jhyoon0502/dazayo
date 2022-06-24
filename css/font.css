@@ -3,26 +3,26 @@
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/notokr-light.woff2") format("woff2"),
-    url("..//fonts/notokr-light.ttf") format("truetype");
+    url("../fonts/notokr-light.ttf") format("truetype");
 }
 @font-face {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/notokr-regular.woff2") format("woff2"),
-    url("..//fonts/notokr-regular.ttf") format("truetype");
+    url("../fonts/notokr-regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/notokr-medium.woff2") format("woff2"),
-    url("..//fonts/notokr-medium.ttf") format("truetype");
+    url("../fonts/notokr-medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/notokr-bold.woff2") format("woff2"),
-    url("..//fonts/notokr-bold.ttf") format("truetype");
+    url("../fonts/notokr-bold.ttf") format("truetype");
 }
