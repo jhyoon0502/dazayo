@@ -19,6 +19,15 @@ window.addEventListener("DOMContentLoaded", function () {
       "width=360, maximum-scale=1, user-scalable=no"
     );
   }
+
+  if (screen.width < 1280) {
+    var target = $(".introduce-li");
+
+    target.on("click", function () {
+      target.toggleClass("clicked");
+      target.not($(this)).removeClass("clicked");
+    });
+  }
 });
 
 window.addEventListener("scroll", function () {
@@ -60,6 +69,15 @@ window.addEventListener("resize", function () {
       "content",
       "width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
     );
+  }
+
+  if (screen.width < 1280) {
+    var target = $(".introduce-li");
+
+    target.on("click", function () {
+      target.toggleClass("clicked");
+      target.not($(this)).removeClass("clicked");
+    });
   }
 });
 
