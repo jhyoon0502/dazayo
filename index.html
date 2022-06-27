@@ -8,15 +8,938 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
     />
-    <title>store</title>
+    <title>Dazayo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="images/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="images/favicon//apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/favicon//apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/favicon//apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon//apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="images/favicon//apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="images/favicon//apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images/favicon//apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon//apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon//android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon//favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon//favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
+    <div class="all-wrap">
+      <header id="header">
+        <div class="header-inner header-width">
+          <a href="#" class="logo-wrap"></a>
+          <nav>
+            <a href="#project-wrap" class="go-article">빈집 재생 프로젝트</a>
+            <a href="#introduce-wrap" class="go-article">빈집 소개</a>
+            <a href="#contact-wrap" class="go-article"
+              >빈집 프로젝트 문의하기</a
+            >
+          </nav>
+          <a href="#" class="header-app-download" target="_blank">
+            <div>앱 다운로드</div>
+            <div class="app-download-btn"></div>
+          </a>
+        </div>
+      </header>
+      <main>
+        <article class="intro-wrap">
+          <div class="intro-video-wrap">
+            <video
+              src="https://sdt-mp4-test.s3.ap-northeast-2.amazonaws.com/dazayo_main_intro.mp4"
+              muted
+              autoplay
+              loop
+              playsinline
+              preload="auto"
+              class="intro-video"
+            ></video>
+            <img src="images/intro/intro.jpg" alt="img" class="intro-img" />
+            <div class="intro-dim"></div>
+            <div class="intro-cover"></div>
+          </div>
+          <div class="intro-txt-wrap">
+            <p class="title-txt">
+              공간에 새로운<br class="intro-br" />
+              가치를 더하다
+            </p>
+            <ul>
+              <li class="li-desktop">
+                <a href="#" class="download-ios" target="_blank">
+                  <img src="images/intro/download-ios.svg" alt="app store" />
+                </a>
+              </li>
+              <li class="li-desktop">
+                <a href="#" class="download-android" target="_blank">
+                  <img
+                    src="images/intro/download-android.svg"
+                    alt="google play"
+                  />
+                </a>
+              </li>
+              <li class="li-mobile">
+                <a href="#" class="download-mobile">
+                  <div>앱 다운로드</div>
+                  <img src="images/header/download-white.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- desktop -->
+        <article id="project-wrap" class="project-wrap">
+          <div class="project-wrap-inner container">
+            <div class="project-pin-wrap">
+              <p class="article-title-txt">
+                다자요,<br />
+                빈집 재생 프로젝트
+              </p>
+              <p>
+                다자요는 빈집을 장기 임대 후 리모델링하여<br />빈집과 소외 지역
+                재생을 합니다.
+              </p>
+              <ul class="img-wrap">
+                <li class="panel img01" id="ytplayer">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/2hheo0bbjzo?enablejsapi=1"
+                    frameborder="0"
+                    allow="autoplay"
+                    allowfullscreen
+                  ></iframe>
+                </li>
+                <li class="panel img02"></li>
+                <li class="panel img03"></li>
+              </ul>
+            </div>
+
+            <div class="project-move-wrap">
+              <ul class="txt-wrap">
+                <li class="panel-txt panel-txt01">
+                  <div>하천 바람집</div>
+                  <div>"'바람'(wind)과 '바람'(hope)을 녹여내는 집"</div>
+                  <div></div>
+                  <div>
+                    ‘하천 바람 집’은 가족사진이 담긴 액자나 요강, 시계 등 이
+                    집을 지키고 있던 물건은 최대한 살리되 배우 류승룡만의 취향도
+                    마음껏 반영했습니다. 창고로 쓰던 공간을 별채로 개조해 꾸민
+                    다도방엔 직접 만든 공예 작품으로 꾸몄습니다.
+                  </div>
+                </li>
+                <li class="panel-txt panel-txt02">
+                  <div>도순 돌담집</div>
+                  <div>"느린 시간 속에서 힐링이 가능한 집"</div>
+                  <div></div>
+                  <div>
+                    이곳은 100년이 넘은 서 씨 집안의 종손집이라고 합니다. 도순
+                    돌담집은 제주의 빈집을 감성 넘치는 숙소로 리모델링하여
+                    완성되었습니다.
+                  </div>
+                </li>
+                <li class="panel-txt panel-txt03">
+                  <div>봉성 돌담집</div>
+                  <div>"빈집에 새로운 가치를 더하다"</div>
+                  <div></div>
+                  <div>
+                    주변의 집들과 똑같은 높이와 똑같은 크기로 오랜 시간 빚어진
+                    공간입니다. '온전한 제주'에서 머물고 싶은 '당신'을
+                    초대합니다.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- mobile -->
+        <article class="project-wrap-mobile">
+          <div class="project-wrap-mobile-inner container top-bottom-padding">
+            <p class="article-title-txt">
+              다자요,<br />
+              빈집 재생 프로젝트
+            </p>
+            <p class="article-sub-txt">
+              다자요는 빈집을 장기 임대 후 리모델링하여<br />빈집과 소외 지역
+              재생을 합니다.
+            </p>
+            <ul>
+              <li class="project-mobile-li">
+                <div class="video-img-wrap">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/2hheo0bbjzo"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="txt-wrap">
+                  <p>하천 바람집</p>
+                  <p>"'바람'(wind)과 '바람'(hope)을 녹여내는 집"</p>
+                  <div></div>
+                  <p>
+                    '하천 바람 집'은 가족사진이 담긴 액자나 요강, 시계 등 이
+                    집을 지키고 있던 물건은 최대한 살리되 배우 류승룡만의 취향도
+                    마음껏 반영했습니다. 창고로 쓰던 공간을 별채로 개조해 꾸민
+                    다도방엔 직접 만든 공예 작품으로 꾸몄습니다.
+                  </p>
+                </div>
+              </li>
+              <li class="project-mobile-li">
+                <div class="video-img-wrap">
+                  <img
+                    src="images/project/mobile-img02.jpg"
+                    alt="도순 돌담집"
+                  />
+                </div>
+                <div class="txt-wrap">
+                  <p>도순 돌담집</p>
+                  <p>"느린 시간 속에서 힐링이 가능한 집"</p>
+                  <div></div>
+                  <p>
+                    이곳은 100년이 넘은 서 씨 집안의 종손집이라고 합니다. 도순
+                    돌담집은 제주의 빈집을 감성 넘치는 숙소로 리모델링하여
+                    완성되었습니다.
+                  </p>
+                </div>
+              </li>
+              <li class="project-mobile-li">
+                <div class="video-img-wrap">
+                  <img
+                    src="images/project/mobile-img03.jpg"
+                    alt="봉성 돌담집"
+                  />
+                </div>
+                <div class="txt-wrap">
+                  <p>봉성 돌담집</p>
+                  <p>"빈집에 새로운 가치를 더하다"</p>
+                  <div></div>
+                  <p>
+                    주변의 집들과 똑같은 높이와 똑같은 크기로 오랜 시간 빚어진
+                    공간입니다. '온전한 제주'에서 머물고 싶은 '당신'을
+                    초대합니다.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="process-wrap">
+          <div class="process-wrap-inner container top-bottom-padding">
+            <p class="article-title-txt article-title-margin">
+              다자요,<br />빈집 재생 프로세스
+            </p>
+            <ul class="process-ul">
+              <li>
+                <img src="images/process/01.svg" alt="img" />
+                <div class="line-wrap">
+                  <div></div>
+                  <div></div>
+                </div>
+                <p class="title-txt">STEP 1</p>
+                <p class="sub-txt">적합한 빈집 수요조사</p>
+                <div class="txt-content">
+                  빈집 소유 현황 파악, 관광지와의 접근성, 양성화 진행 여부,
+                  리모델링에 투입되는 비용 등 종합적인 검토 후 빈집 리모델링
+                  후보지 선정
+                </div>
+              </li>
+              <li>
+                <img src="images/process/02.svg" alt="img" />
+                <div class="line-wrap">
+                  <div></div>
+                  <div></div>
+                </div>
+                <p class="title-txt">STEP 2</p>
+                <p class="sub-txt">크라우드펀딩을 통한<br />자금 조달</p>
+                <div class="txt-content">
+                  다자요의 모든 빈집은 크라우드펀딩을 통해 자금 조달 후
+                  리모델링을 진행합니다. 이와 같은 크라우드펀딩은 다자요
+                  비즈니스에 공감하는 분들을 모음과 동시에 홍보의 역할을
+                  담당하게 됩니다.
+                </div>
+              </li>
+              <li>
+                <img src="images/process/03.svg" alt="img" />
+                <div class="line-wrap">
+                  <div></div>
+                  <div></div>
+                </div>
+                <p class="title-txt">STEP 3</p>
+                <p class="sub-txt">빈집 리모델링</p>
+                <div class="txt-content">
+                  자금 조달 후 빈집 리모델링은 평균 6개월에서 12개월이
+                  소요됩니다. 이와같은 과정 속에서 다양한 협찬사와 함께 시공을
+                  진행합니다.
+                </div>
+              </li>
+              <li>
+                <img src="images/process/04.svg" alt="img" />
+                <div class="line-wrap">
+                  <div></div>
+                  <div></div>
+                </div>
+                <p class="title-txt">STEP 4</p>
+                <p class="sub-txt">완성된 빈집 주주 및<br />B2B 제휴로 임대</p>
+                <div class="txt-content">
+                  완성된 빈집은 기존 크라우드펀딩 참여자 분들 그리고 기업간
+                  제휴를 맺은 기업체에 제공됩니다.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article id="introduce-wrap" class="introduce-wrap">
+          <div class="introduce-wrap-inner container top-bottom-padding">
+            <p class="article-title-txt article-title-margin">
+              다자요,<br />빈집 소개
+            </p>
+            <ul class="introduce-ul">
+              <li class="introduce-li">
+                <img src="images/introduce/img01.jpg" alt="북촌포구집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">북촌포구집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>제주시 조천읍 북촌리 1271-2</p>
+                  </div>
+                  <p class="txt-list">
+                    삼성비스포크인덕션<br />ROK 커피그라인더, 제레미 원두<br />별채
+                    자쿠지 공간
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img02.jpg" alt="신풍넝쿨집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">신풍넝쿨집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>서귀포시 성산읍 신풍리 975</p>
+                  </div>
+                  <p class="txt-list">
+                    LG스탠바이미<br />ROK 커피그라인더, 제레미 원두<br />야외자쿠지
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img03.jpg" alt="두모옴팡집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">두모옴팡집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>제주시 한경면 두모리 2845-1</p>
+                  </div>
+                  <p class="txt-list">
+                    다이슨 V12 디텍트 슬림™ 무선청소기<br />다이슨 쿨
+                    포름알데히드 공기청정기<br />실내자쿠지
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img04.jpg" alt="월령바당집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">월령바당집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>제주시 한림읍 월령리 435</p>
+                  </div>
+                  <p class="txt-list">
+                    다이슨 V12 디텍트 슬림™ 무선청소기<br />다이슨 쿨
+                    포름알데히드 공기청정기<br />실내자쿠지
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img05.jpg" alt="하천바람집-안거리" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">하천바람집-안거리</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>서귀포시 표선면 하천리 763-1</p>
+                  </div>
+                  <p class="txt-list">
+                    LG 에어로타워 공기청정기<br />LG A9 무선청소기<br />야외자쿠지
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img06.jpg" alt="하천바람집-밖거리" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">하천바람집-밖거리</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>서귀포시 표선면 하천리 764</p>
+                  </div>
+                  <p class="txt-list">
+                    모슈 토스터기, 모슈 전기포트<br />펠로우 전동 그라인더,
+                    제레미 원두<br />화소반 식기세트
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img07.jpg" alt="도순돌담집 빨간집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">도순돌담집 빨간집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>서귀포시 도순남로29번길 5</p>
+                  </div>
+                  <p class="txt-list">
+                    다이슨 V12 디텍트 슬림™ 무선청소기<br />다이슨 쿨
+                    포름알데히드 공기청정기<br />ROK 커피그라인더, 제레미 원두
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img08.jpg" alt="도순돌담집 파란집" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">도순돌담집 파란집</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>서귀포시 도순남로29번길 5</p>
+                  </div>
+                  <p class="txt-list">
+                    LG A9 청소기<br />발뮤다 토스터기, 발뮤다 전기포트<br />ROK
+                    커피그라인더, 제레미 원두
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img09.jpg" alt="봉성돌담집 한옥" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">봉성돌담집 한옥</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>제주시 애월읍 봉성동2길 4-6</p>
+                  </div>
+                  <p class="txt-list">
+                    다이슨 V12 디텍트 슬림™ 무선청소기<br />다이슨 쿨
+                    포름알데히드 공기청정기<br />야외자쿠지
+                  </p>
+                </div>
+              </li>
+              <li class="introduce-li">
+                <img src="images/introduce/img10.jpg" alt="봉성돌담집 양옥" />
+                <div class="list-dim"></div>
+                <div class="txt-wrap">
+                  <p class="title-txt">봉성돌담집 양옥</p>
+                  <div>
+                    <img src="images/introduce/map.svg" alt="icon" />
+                    <p>제주시 애월읍 봉성동2길 4-6</p>
+                  </div>
+                  <p class="txt-list">
+                    LG 에어로타워 공기청정기<br />삼성 비스포크 무선 청소기<br />야외자쿠지
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="history-wrap">
+          <div class="history-wrap-inner container">
+            <p class="history-title-txt article-title-txt article-title-margin">
+              다자요,<br />히스토리
+            </p>
+
+            <!-- mobile -->
+            <ul class="history-content-ul mobile">
+              <div class="vertical-line"></div>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2022</div>
+                  <ul>
+                    <li>북촌포구집 서비스 오픈 (1월 27일 확정)</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2021</div>
+                  <ul>
+                    <li>하나투어 프로젝트 투자 5억원 유치</li>
+                    <li>와이앤아처 3억원 투자 유치</li>
+                    <li>특수목적법인 빈집프로젝트1 (주) 설립</li>
+                    <li>신규 공간 재생 착공</li>
+                    <li>중소기업은행 2억원 투자 유치</li>
+                    <li>인라이트벤처스 5억원 투자 유치</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2020</div>
+                  <ul>
+                    <li>10월 실증특례 지정(한걸음모델 1호)</li>
+                    <li>엔젤매칭펀드 5억원 투자 유치</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2019</div>
+                  <ul>
+                    <li>봉성돌담집 완성</li>
+                    <li>관광벤처기업 선정</li>
+                    <li>벤처기업인증 획득</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2018</div>
+                  <ul>
+                    <li>와디즈 크라우드펀딩 2차 3억원 달성</li>
+                    <li>제주관광공사 제이스타트업 선정</li>
+                    <li>
+                      도순돌담집 완성 / 와디즈 크라우드펀딩 리워드펀딩 진행
+                    </li>
+                    <li>개인엔젤투자 9천만원</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2017</div>
+                  <ul>
+                    <li>개인엔젤투자 1억 1천만원</li>
+                    <li>와디즈 크라우드펀딩 1차 2억원 달성</li>
+                    <li>미분양타운하우스 애월미하스 브랜드/마케팅 운영시작</li>
+                    <li>JDC 창업아이템 최우수상</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2016</div>
+                  <ul>
+                    <li>제주창조경제혁신센터 Demoday 인기상</li>
+                    <li>사단법인 제주올레 농어촌민박 MOU</li>
+                    <li>제주창조경제혁신센터 Demoday 우수상</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2015</div>
+                  <ul>
+                    <li>서울대제어계측신기술연구센터, ㈜셈웨어 MOU</li>
+                    <li>미래부선정 ICT분야 K-global 300기업 선정</li>
+                    <li>다자요 창립</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <!-- desktop -->
+            <ul class="history-content-ul desktop">
+              <div class="vertical-line"></div>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2022</div>
+                  <ul>
+                    <li>북촌포구집 서비스 오픈 (1월 27일 확정)</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div
+                  class="txt-wrap right-to-left"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2021</div>
+                  <ul>
+                    <li>하나투어 프로젝트 투자 5억원 유치</li>
+                    <li>와이앤아처 3억원 투자 유치</li>
+                    <li>특수목적법인 빈집프로젝트1 (주) 설립</li>
+                    <li>신규 공간 재생 착공</li>
+                    <li>중소기업은행 2억원 투자 유치</li>
+                    <li>인라이트벤처스 5억원 투자 유치</li>
+                  </ul>
+                </div>
+                <div class="figure-wrap right-to-left">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div class="empty-div"></div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2020</div>
+                  <ul>
+                    <li>10월 실증특례 지정(한걸음모델 1호)</li>
+                    <li>엔젤매칭펀드 5억원 투자 유치</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div
+                  class="txt-wrap right-to-left"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2019</div>
+                  <ul>
+                    <li>봉성돌담집 완성</li>
+                    <li>관광벤처기업 선정</li>
+                    <li>벤처기업인증 획득</li>
+                  </ul>
+                </div>
+                <div class="figure-wrap right-to-left">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div class="empty-div"></div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2018</div>
+                  <ul>
+                    <li>와디즈 크라우드펀딩 2차 3억원 달성</li>
+                    <li>제주관광공사 제이스타트업 선정</li>
+                    <li>
+                      도순돌담집 완성 / 와디즈 크라우드펀딩 리워드펀딩 진행
+                    </li>
+                    <li>개인엔젤투자 9천만원</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div
+                  class="txt-wrap right-to-left"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2017</div>
+                  <ul>
+                    <li>개인엔젤투자 1억 1천만원</li>
+                    <li>와디즈 크라우드펀딩 1차 2억원 달성</li>
+                    <li>미분양타운하우스 애월미하스 브랜드/마케팅 운영시작</li>
+                    <li>JDC 창업아이템 최우수상</li>
+                  </ul>
+                </div>
+                <div class="figure-wrap right-to-left">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div class="empty-div"></div>
+              </li>
+              <li class="history-content-li">
+                <div class="empty-div"></div>
+                <div class="figure-wrap">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+                <div
+                  class="txt-wrap"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2016</div>
+                  <ul>
+                    <li>제주창조경제혁신센터 Demoday 인기상</li>
+                    <li>사단법인 제주올레 농어촌민박 MOU</li>
+                    <li>제주창조경제혁신센터 Demoday 우수상</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="history-content-li">
+                <div
+                  class="txt-wrap right-to-left"
+                  data-aos="fade-zoom-in"
+                  data-aos-easing="ease-in-back"
+                  data-aos-duration="400"
+                >
+                  <div>2015</div>
+                  <ul>
+                    <li>서울대제어계측신기술연구센터, ㈜셈웨어 MOU</li>
+                    <li>미래부선정 ICT분야 K-global 300기업 선정</li>
+                    <li>다자요 창립</li>
+                  </ul>
+                </div>
+                <div class="figure-wrap right-to-left">
+                  <div class="line"></div>
+                  <div class="circle"></div>
+                </div>
+                <div class="empty-div"></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article id="contact-wrap" class="contact-wrap white-header">
+          <div class="contact-wrap-inner">
+            <div class="contact-img-wrap">
+              <img src="images/contact.jpg" alt="img" />
+            </div>
+            <div class="contact-txt-wrap">
+              <p class="contact-title-txt article-title-txt">
+                빈집을 보유하고 계신가요?
+              </p>
+              <p class="contact-sub-txt">
+                제주도에 보유한 빈집을 다자요에 등록하세요
+              </p>
+              <a
+                href="https://forms.gle/5HkkApcoMqNZc7477"
+                class="go-contact"
+                target="_blank"
+                >문의하기</a
+              >
+            </div>
+          </div>
+        </article>
+        <div class="banner-wrap">
+          <div class="banner-wrap-inner">
+            <div>Start with Dazayo</div>
+            <div>이제 다자요와 함께 시작하세요</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-inner container">
+          <div class="footer-txt-wrap">
+            <div class="footer-txt-inner">
+              <p>주식회사 다자요</p>
+              <p>대표이사 : 남성준</p>
+              <p>사업자번호 : 459-81-00313</p>
+              <p>주소 : 제주시 수목원길 39-1, 1층</p>
+            </div>
+            <div class="footer-txt-inner">
+              <p>제휴 / 코워킹 문의</p>
+              <p>
+                이메일 : <a href="mailto:" class="mail-line">info@dazayo.com</a>
+              </p>
+              <p>전 화 : 070-4437-8399, 070-4228-1610</p>
+              <p>카 톡 : "다자요" 검색</p>
+            </div>
+          </div>
+          <div class="footer-sns-wrap">
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/dazayo.official/"
+                  target="_blank"
+                >
+                  <img src="images/footer-instagram.svg" alt="instagram" />
+                  <div class="sns-txt">인스타그램</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/dazayoCom/" target="_blank">
+                  <img src="images/footer-facebook.svg" alt="facebook" />
+                  <div class="sns-txt">페이스북</div>
+                </a>
+              </li>
+            </ul>
+            <div>Copyright Dazayo Co., Ltd All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
+      <div class="go-top">
+        <a href="javascript:;"></a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scroll-effect.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
